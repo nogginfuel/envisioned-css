@@ -2,10 +2,10 @@ Envisioned CSS
 =========
 Edward Tufte uses a distinctive style in his handouts: simple, with well-set
 typography, extensive sidenotes, and tight integration of graphics and
-charts. `tufte-css` brings that style to HTML documents.
+charts. `envisioned-css` brings that style to HTML documents.
 
 This project is directly inspired by and
-based on [tufte-css](https://github.com/daveliepmann/tufte-css) and [tablesaw](https://github.com/filamentgroup/tablesaw)
+based on [tufte-css](https://github.com/daveliepmann/tufte-css), [tablesaw](https://github.com/filamentgroup/tablesaw) and
 [R Markdown Tufte Handout](http://rmarkdown.rstudio.com/examples/tufte-handout.pdf).
 
 Getting Started
