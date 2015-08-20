@@ -5,22 +5,32 @@ typography, extensive sidenotes, and tight integration of graphics and
 charts. `envisioned-css` brings that style to HTML documents.
 
 This project is directly inspired by and
-based on [tufte-css](https://github.com/daveliepmann/tufte-css), [tablesaw](https://github.com/filamentgroup/tablesaw) and
+based on [tufte-css](https://github.com/daveliepmann/tufte-css), [tablesaw](https://github.com/filamentgroup/tablesaw), [Pushy off-canvas navigation](https://github.com/christophery/pushy) and
 [R Markdown Tufte Handout](http://rmarkdown.rstudio.com/examples/tufte-handout.pdf).
 
 Getting Started
 -
 The file *index.html* is a self-describing demonstration document that walks through
-the features of Envisioned CSS. The live version at
-[nogginfuel.com/envisioned-css](http://nogginfuel.com/envisioned-css/)
-is the best summary of the project.
+the features of Envisioned CSS. The file *with-nav.html* demos the use of the navigation functionality. The live demos are at the following,
+[nogginfuel.com/envisioned-css](http://nogginfuel.com/envisioned-css/) and [nogginfuel.com/envisioned-css/with-nav.html](http://nogginfuel.com/envisioned-css/with-nav.html). They best summarize the project.
 
-To use Envisioned CSS on your own website, just copy `envisioned.css`, `tablesaw-bare.css`, `Roboto-Regular.ttf`, `RobotoCondensed-Regular.ttf` and `RobotoMono-Regular.ttf` to your project
+To use Envisioned CSS on your own website, just copy `envisioned.css`, `tablesaw-stackonly.css`, `nudge.css`, `Roboto-Regular.ttf`, `RobotoCondensed-Regular.ttf` and `RobotoMono-Regular.ttf` to your project
 directory (or just copy the folder structure) and add the following to your HTML doc's head block:
 
 ```html
 <link rel="stylesheet" href="envisioned.css"/>
-<link rel="stylesheet" href="tablesaw-bare.css"/>
+<link rel="stylesheet" href="tablesaw-stackonly.css"/>
+<link rel="stylesheet" href="nudge.css"/> <!-- if you want navigation -->
+
+```
+
+You will also need to copy `jquery.js`, `tablesaw-stackonly.js` and `nudge.min.js` (or the folder structure) add the following block prior to the closing `</body>` tag:
+
+```html
+<script src="js/jquery.js"></script>
+<script src="js/tablesaw-stackonly.js"></script>
+<script src="js/nudge.min.js"></script> <!-- if you want navigation -->
+
 ```
 
 Contributing
@@ -37,6 +47,7 @@ Inspiration
 -
  - [Dave Liepmann - Tufte CSS](https://github.com/daveliepmann/tufte-css)
  - [Filament Group - Tablesaw](https://github.com/filamentgroup/tablesaw)
+ - [Christopher Yee - Pushy](https://github.com/christophery/pushy)
 
 
 License
