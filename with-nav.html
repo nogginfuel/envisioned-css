@@ -54,6 +54,33 @@
 
     <section>
       <h2 id="navfundamental">Fundamentals</h2>
+      <h3>Navigation</h3>
+      <p>Online navigation is a basic necessity. Minimal navigation has been added to this project to support navigation between sections and/or separate pages of related documentation. Organize your navigation within a <span class="code">nav</span> element inside your <span class="code">body</span> tag. Inside the <span class="code">nav</span> tags use the following:</p>
+      
+      <pre class="code">
+      	&lt;nav class="pushy pushy-left"/&gt;
+            &lt;ul&gt;
+            	&lt;li&gt;&lt;a href="#"&gt;Item 1&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="#"&gt;Item 2&lt;/a&gt;&lt;/li&gt;
+            &lt;/ul&gt;
+        &lt;/nav&gt;
+      </pre>
+      
+      <p>The above snippet needs to live within the <span class="code">body</span> tag, but it must reside above the rest of the page content. So the navigation can nudge the content over, put the entirety your <span class="code">article</span> within a <span class="code">div</span> tag:</p>
+      
+      <pre class="code">
+      	&lt;div id="container"/&gt;
+            &lt;article&gt;
+            	&lt;section&gt;
+                	&lt;p&gt;Section 1 Content&lt;/p&gt;
+                &lt;/section&gt;
+                &lt;section&gt;
+                	&lt;p&gt;Section 2 Content&lt;/p&gt;
+                &lt;/section&gt;
+            &lt;/article&gt;
+        &lt;/div&gt;
+      </pre>
+      
       <h3>Sections</h3>
       <p>Organize your document with an <span class="code">article</span> element inside your <span class="code">body</span> tag. Inside that, use <span class="code">section</span> tags around each logical grouping of text and headings.</p>
 
