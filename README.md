@@ -18,9 +18,9 @@ To use Envisioned CSS on your own website, just copy `envisioned.css`, `tablesaw
 directory (or just copy the folder structure) and add the following to your HTML doc's head block:
 
 ```html
-<link rel="stylesheet" href="envisioned.css"/>
-<link rel="stylesheet" href="tablesaw-stackonly.css"/>
-<link rel="stylesheet" href="nudge.css"/> <!-- if you want navigation -->
+<link rel="stylesheet" href="css/envisioned.css"/>
+<link rel="stylesheet" href="css/tablesaw-stackonly.css"/>
+<link rel="stylesheet" href="css/nudge.css"/> <!-- if you want navigation -->
 
 ```
 
