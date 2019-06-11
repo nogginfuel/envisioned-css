@@ -12,7 +12,7 @@ Getting Started
 -
 The file *index.html* is a self-describing demonstration document that walks through
 the features of Envisioned CSS. The file *with-nav.html* demos the use of the navigation functionality. The live demos are at the following,
-[nogginfuel.com/envisioned-css](http://nogginfuel.com/envisioned-css/) and [nogginfuel.com/envisioned-css/with-nav.html](http://nogginfuel.com/envisioned-css/with-nav.html). They best summarize the project.
+[creativeitch.co/nogginfuel/envisioned-css](http://creativeitch.co/nogginfuel/envisioned-css/index.html) and [creativeitch.co/nogginfuel/envisioned-css/with-nav.html](http://creativeitch.co/nogginfuel/envisioned-css/with-nav.html). They best summarize the project.
 
 To use Envisioned CSS on your own website, just copy `envisioned.css`, `tablesaw-stackonly.css`, `nudge.css`, `Roboto-Regular.ttf`, `RobotoCondensed-Regular.ttf` and `RobotoMono-Regular.ttf` to your project
 directory (or just copy the folder structure) and add the following to your HTML doc's head block:
